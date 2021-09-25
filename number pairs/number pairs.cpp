@@ -15,12 +15,12 @@ int main()
 		}
 		else if (a % 2 != 0)
 		{
-			cout << abs(a) / 2 << " pairs of numbers and " << abs(a) % 2 << " non pair number, his position: " << abs(a) / 2 + 1 << endl;
+			cout << abs(a) / 2 << " pairs of numbers and 1 non pair number, his position: " << abs(a) / 2 + 1 << endl;
 			cout << "==========================================================================================================" << endl;
 		}
 		else
 		{
-			cout << abs(a) / 2 << " pairs of numbers and " << abs(a) % 2 << " non pair numbers" << endl;
+			cout << abs(a) / 2 << " pairs of numbers and 0 non pair numbers" << endl;
 			cout << "==========================================================================================================" << endl;
 		}
 	}
